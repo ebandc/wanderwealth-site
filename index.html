@@ -4,8 +4,8 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Wanderwealth Advisor - Engr. Edward Mishael Dela Cruz, MDRT</title>
-    <!-- Tailwind CSS CDN -->
     <script src="https://cdn.tailwindcss.com"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
     <style>
         @import url('https://fonts.googleapis.com/css2?family=Inter:wght@300;400;600;700&display=swap');
         body {
@@ -15,7 +15,6 @@
     </style>
 </head>
 <body class="bg-gray-50 antialiased">
-    <!-- Header/Hero Section -->
     <header class="bg-gradient-to-r from-orange-500 to-yellow-500 text-white py-16 px-4 sm:px-6 lg:px-8 shadow-lg">
         <div class="max-w-7xl mx-auto flex flex-col md:flex-row items-center justify-between">
             <div class="text-center md:text-left mb-8 md:mb-0">
@@ -26,88 +25,125 @@
                     - Engr. Edward Mishael Dela Cruz, MDRT
                 </p>
                 <p class="text-lg sm:text-xl opacity-80 rounded-lg">
-                    YOUR WANDERWEALTH ADVISOR @EBANDC
+                    YOUR WANDERWEALTH ADVISOR
                 </p>
             </div>
-            <!-- Agent's Image Placeholder - You can replace this with your actual image -->
-            <div class="flex-shrink-0">
-                <img src="https://placehold.co/250x250/FFA500/FFFFFF?text=Your+Photo" alt="Engr. Edward Mishael Dela Cruz" class="rounded-full border-4 border-white shadow-xl w-40 h-40 sm:w-60 sm:h-60 object-cover">
+            <div class="flex flex-col items-center md:flex-row md:items-end md:space-x-4">
+                <div class="flex-shrink-0 mb-4 md:mb-0">
+                    <img src="edward.jpg" alt="Engr. Edward Mishael Dela Cruz" class="rounded-full border-4 border-white shadow-xl w-40 h-40 sm:w-60 sm:h-60 object-cover object-center">
+                </div>
+                <div class="flex flex-col space-y-4 items-center md:items-start">
+                    <img src="fwd.png" class="w-32 h-16 sm:w-40 sm:h-20 object-contain rounded-lg">
+                    <img src="secbank.png" alt="Security Bank of the Philippines Logo" class="w-32 h-16 sm:w-40 sm:h-20 object-contain rounded-lg">
+                </div>
             </div>
         </div>
     </header>
 
-    <!-- Services Section -->
+    <section class="bg-gray-100 py-12 px-4 sm:px-6 lg:px-8 text-center shadow-inner">
+        <div class="max-w-4xl mx-auto">
+            <p class="text-xl sm:text-2xl text-gray-800 mb-6 font-bold">
+                6 out of 10 Filipino ang di nakakapag tuloy ng kanilang mga insurance and investment (VUL) plans
+            </p>
+            <p class="text-lg sm:text-xl text-gray-700 mb-6">
+                Karamihan ang dahilan ay: <strong class="text-orange-600">Financial Problem, Pagkawalan ng Trabaho/Business, Nag-over-budget sa Insurance, Ginamit ang Pera sa Emergency</strong>
+            </p>
+            <p class="text-xl sm:text-2xl text-gray-800 mb-6 font-bold">
+                I stopped paying some of my INSURANCE AND INVESTMENT PLANS OR VUL and I discovered TERM/TRADITIONAL INSURANCE!
+            </p>
+            <p class="text-lg sm:text-xl text-gray-700">
+                Hindi ko na i-gagatekeep ito. Dahil I want you to have options na more affordable and sustainable.
+            </p>
+        </div>
+    </section>
+
     <section class="py-16 px-4 sm:px-6 lg:px-8 bg-white shadow-md">
         <div class="max-w-7xl mx-auto text-center">
-            <h2 class="text-3xl sm:text-4xl font-bold text-orange-600 mb-8 rounded-lg">Our Services</h2>
+            <h2 class="text-3xl sm:text-4xl font-bold text-orange-600 mb-8 rounded-lg">Our Solutions</h2>
             <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
-                <!-- Service Card 1 -->
-                <div class="bg-gray-100 p-8 rounded-lg shadow-md hover:shadow-lg transition-shadow duration-300 transform hover:-translate-y-1">
-                    <h3 class="text-2xl font-semibold text-gray-800 mb-4 rounded-lg">Prepaid Term/Traditional Insurance</h3>
+                <!-- Service Card 1: The One - Prepaid Term Plan -->
+                <a href="https://www.fwd.com.ph/agency/fwd/agent/c5664845e4bf/life-insurance/the-one/" target="_blank" rel="noopener noreferrer" class="block bg-gray-100 p-8 rounded-lg shadow-md hover:shadow-lg transition-shadow duration-300 transform hover:-translate-y-1 text-left">
+                    <h3 class="text-2xl font-semibold text-gray-800 mb-4 rounded-lg">The One - Prepaid Term Plan</h3>
                     <p class="text-gray-600 leading-relaxed rounded-lg">
-                        Affordable, Straightforward, Easy and Fast Application. No Medical Exam Needed. Do-It-Yourself Insurance
+                        - Guaranteed Benefits: 
+                        <br>Life Insurance
+                        <br>Critical Illness Coverage(OPTIONAL)
+                        <br>Accidental Death (OPTIONAL)
+                        <br>- Yearly Renewable
+                        <br><br><span class="font-bold text-lg">Sample Quotation for 33yo Male:</span>
+                        <br>Coverage: 1 Million Pesos Life Insurance + 1 Million Pesos Critical Illness Coverage
+                        <br><span class="font-bold text-orange-600">PREMIUM: PHP7,420 (In One Year)</span>
                     </p>
-                </div>
-                <!-- Service Card 2 -->
-                <div class="bg-gray-100 p-8 rounded-lg shadow-md hover:shadow-lg transition-shadow duration-300 transform hover:-translate-y-1">
-                    <h3 class="text-2xl font-semibold text-gray-800 mb-4 rounded-lg">Health Insurance/ Health Card</h3>
+                </a>
+                <!-- Service Card 2: Set For Health -->
+                <a href="https://www.fwd.com.ph/agency/fwd/agent/c5664845e4bf/critical-illness-insurance/digital-set-for-health/" target="_blank" rel="noopener noreferrer" class="block bg-gray-100 p-8 rounded-lg shadow-md hover:shadow-lg transition-shadow duration-300 transform hover:-translate-y-1 text-left">
+                    <h3 class="text-2xl font-semibold text-gray-800 mb-4 rounded-lg">Set For Health</h3>
                     <p class="text-gray-600 leading-relaxed rounded-lg">
-                        Gain peace of mind with comprehensive health coverage and convenient HMO card access for your medical needs.
+                        - Guaranteed Benefits until Age 75
+                        <br>3X Claims of Major Critical Illness
+                        <br>1X Claim of Minor Critical Illness
+                        <br>Life Insurance Benefit
+                        <br>Stop Paying your Premiums after your First Major Claim
+                        <br>100% Refundable/Loanable (if not Claimed)
+                        <br><br>- Flexible Payment Options:
+                        <br>10, 5 years
+                        <br><br><span class="font-bold text-lg">Sample Quotation for 33yo Male:</span>
+                        <br>Total Coverage of PHP2.1 Million Pesos (PHP500k per illness)
+                        <br><span class="font-bold text-orange-600">PREMIUM: PHP3,090/month (10 Years Only)</span>
                     </p>
-                </div>
-                <!-- Service Card 3 -->
-                <div class="bg-gray-100 p-8 rounded-lg shadow-md hover:shadow-lg transition-shadow duration-300 transform hover:-translate-y-1">
-                    <h3 class="text-2xl font-semibold text-gray-800 mb-4 rounded-lg">Insurance with Retirement Fund(VUL)</h3>
-                    <p class="text-gray-600 leading-relaxed rounded-lg">
-                        Combine protection and growth with our versatile insurance plans that include investment for your Retirement needs.
-                    </p>
-                </div>
-                <!-- Service Card 4 -->
-                <div class="bg-gray-100 p-8 rounded-lg shadow-md hover:shadow-lg transition-shadow duration-300 transform hover:-translate-y-1">
-                    <h3 class="text-2xl font-semibold text-gray-800 mb-4 rounded-lg">Insurance and Investment Portfolio Review</h3>
-                    <p class="text-gray-600 leading-relaxed rounded-lg">
-                        I want to consolidate all my insurance and investment plans.
-                    </p>
-                </div>
-                                <!-- Service Card 5 -->
-                <div class="bg-gray-100 p-8 rounded-lg shadow-md hover:shadow-lg transition-shadow duration-300 transform hover:-translate-y-1">
-                    <h3 class="text-2xl font-semibold text-gray-800 mb-4 rounded-lg">Join the Hustle</h3>
-                    <p class="text-gray-600 leading-relaxed rounded-lg">
-                        I want to apply as Financial Wealth Planner/Insurance Agent.
-                        Minimum Requirements: College Graduate OR Undergraduate with 2 Years Work Experience(ANY)
-                    </p>
-                </div>
+                </a>
             </div>
         </div>
     </section>
 
-    <!-- Testimonials Section -->
+    <!-- New Section: What's the next step? -->
+    <section class="py-16 px-4 sm:px-6 lg:px-8 bg-gray-50 text-center">
+        <div class="max-w-4xl mx-auto">
+            <h2 class="text-3xl sm:text-4xl font-bold text-orange-600 mb-8 rounded-lg">What's the Next Step?</h2>
+            <p class="text-lg sm:text-xl text-gray-700 mb-6">
+                If you're healthy, No Pre-existing Conditions, you can apply online. Just click on the product above. We guarantee approval of your plan within 24 hours w/o Medical Requirements.
+            </p>
+            <p class="text-lg sm:text-xl text-gray-700 mb-8">
+                Kung may Pre-existing conditions or may maintenance na. I'm sorry we're not allowed to avail this type of plan. BUT wait, may chance ka pa din kumuha ng insurance.
+            </p>
+            <p class="text-lg sm:text-xl text-gray-700 mb-6">
+                To know more about this, or kung iba ka pang katanungan, you may message me in:
+            </p>
+            <div class="flex justify-center space-x-6">
+                <!-- Messenger Icon -->
+                <a href="https://m.me/14ivandelacruz" target="_blank" rel="noopener noreferrer" class="text-blue-500 hover:text-blue-700 transition-colors duration-300">
+                    <i class="fab fa-facebook-messenger fa-4x"></i>
+                </a>
+                <!-- WhatsApp Icon -->
+                <a href="https://api.whatsapp.com/send/?phone=639171461018&text&type=phone_number&app_absent=0&wame_ctl=1" target="_blank" rel="noopener noreferrer" class="text-green-500 hover:text-green-700 transition-colors duration-300">
+                    <i class="fab fa-whatsapp fa-4x"></i>
+                </a>
+            </div>
+        </div>
+    </section>
+    
     <section class="py-16 px-4 sm:px-6 lg:px-8 bg-orange-50">
         <div class="max-w-7xl mx-auto text-center">
             <h2 class="text-3xl sm:text-4xl font-bold text-orange-600 mb-12 rounded-lg">What Our Clients Say</h2>
             <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
-                <!-- Testimonial 1 -->
                 <div class="bg-white p-8 rounded-lg shadow-md border-t-4 border-orange-400">
                     <p class="text-gray-700 italic mb-6 rounded-lg">
                         "Choosing Engr. Edward was the best decision for my financial planning. He explained everything clearly and helped me find the perfect health insurance that fits my budget and needs. Truly professional and trustworthy!"
                     </p>
                     <p class="font-semibold text-gray-800 rounded-lg">- Maria S., Small Business Owner</p>
                 </div>
-                <!-- Testimonial 2 -->
                 <div class="bg-white p-8 rounded-lg shadow-md border-t-4 border-orange-400">
                     <p class="text-gray-700 italic mb-6 rounded-lg">
                         "Edward made the complex world of insurance and investments so easy to understand. Thanks to his advice, I now have a solid plan for my retirement and my family's future. Highly recommend his services!"
                     </p>
                     <p class="font-semibold text-gray-800 rounded-lg">- John D., IT Professional</p>
                 </div>
-                <!-- Testimonial 3 -->
                 <div class="bg-white p-8 rounded-lg shadow-md border-t-4 border-orange-400">
                     <p class="text-gray-700 italic mb-6 rounded-lg">
                         "From term insurance to investment options, Edward is incredibly knowledgeable. He's always patient and genuinely cares about his clients' well-being. I feel truly secure knowing he's my advisor."
                     </p>
                     <p class="font-semibold text-gray-800 rounded-lg">- Sarah L., Educator</p>
                 </div>
-                <!-- Testimonial 4 -->
                 <div class="bg-white p-8 rounded-lg shadow-md border-t-4 border-orange-400">
                     <p class="text-gray-700 italic mb-6 rounded-lg">
                         "I was hesitant about getting an HMO card, but Edward guided me through the process seamlessly. His dedication to finding the best solutions is truly commendable. Five stars!"
@@ -118,44 +154,35 @@
         </div>
     </section>
 
-    <!-- Call to Action Section -->
     <section class="py-16 px-4 sm:px-6 lg:px-8 bg-gradient-to-r from-orange-600 to-yellow-600 text-white text-center">
         <div class="max-w-4xl mx-auto">
             <h2 class="text-3xl sm:text-4xl font-bold mb-6 rounded-lg">Ready to Secure Your Future?</h2>
             <p class="text-lg sm:text-xl mb-8 opacity-90 rounded-lg">
                 Let's discuss how we can build a personalized insurance and investment plan that works for you.
             </p>
-            <a href="#contact" class="inline-block bg-white text-orange-700 font-bold py-3 px-8 rounded-full text-lg shadow-lg hover:bg-gray-100 hover:text-orange-800 transition duration-300 transform hover:scale-105">
+            <a href="https://calendly.com/horizonfinancialsphcareers/consultation" target="_blank" rel="noopener noreferrer" class="inline-block bg-white text-orange-700 font-bold py-3 px-8 rounded-full text-lg shadow-lg hover:bg-gray-100 hover:text-orange-800 transition duration-300 transform hover:scale-105">
                 Get a Free Consultation
             </a>
         </div>
     </section>
 
-    <!-- Contact Form/Section (Optional, as a simple placeholder) -->
-    <section id="contact" class="py-16 px-4 sm:px-6 lg:px-8 bg-gray-50">
-        <div class="max-w-xl mx-auto bg-white p-8 rounded-lg shadow-md">
-            <h2 class="text-3xl sm:text-4xl font-bold text-orange-600 mb-8 text-center rounded-lg">Contact Us</h2>
-            <form>
-                <div class="mb-6">
-                    <label for="name" class="block text-gray-700 text-lg font-semibold mb-2 rounded-lg">Name</label>
-                    <input type="text" id="name" name="name" class="w-full px-4 py-3 border border-gray-300 rounded-lg focus:outline-none focus:ring-2 focus:ring-orange-500" placeholder="Your Name" required>
-                </div>
-                <div class="mb-6">
-                    <label for="email" class="block text-gray-700 text-lg font-semibold mb-2 rounded-lg">Email</label>
-                    <input type="email" id="email" name="email" class="w-full px-4 py-3 border border-gray-300 rounded-lg focus:outline-none focus:ring-2 focus:ring-orange-500" placeholder="your@example.com" required>
-                </div>
-                <div class="mb-6">
-                    <label for="message" class="block text-gray-700 text-lg font-semibold mb-2 rounded-lg">Message</label>
-                    <textarea id="message" name="message" rows="5" class="w-full px-4 py-3 border border-gray-300 rounded-lg focus:outline-none focus:ring-2 focus:ring-orange-500" placeholder="Tell us about your needs..." required></textarea>
-                </div>
-                <button type="submit" class="w-full bg-orange-600 text-white font-bold py-3 px-6 rounded-lg text-xl hover:bg-orange-700 transition duration-300 shadow-lg">
-                    Send Message
-                </button>
-            </form>
+    <section class="py-12 px-4 sm:px-6 lg:px-8 bg-gray-100 text-center">
+        <div class="max-w-7xl mx-auto">
+            <h2 class="text-3xl sm:text-4xl font-bold text-orange-600 mb-8 rounded-lg">Let's Connect</h2>
+            <div class="flex justify-center space-x-6">
+                <a href="https://www.facebook.com/14ivandelacruz" target="_blank" rel="noopener noreferrer" class="text-blue-600 hover:text-blue-800 transition-colors duration-300">
+                    <i class="fab fa-facebook fa-4x"></i>
+                </a>
+                <a href="https://www.instagram.com/ebandc" target="_blank" rel="noopener noreferrer" class="text-pink-600 hover:text-pink-800 transition-colors duration-300">
+                    <i class="fab fa-instagram fa-4x"></i>
+                </a>
+                <a href="https://www.tiktok.com/@ebandc" target="_blank" rel="noopener noreferrer" class="text-black hover:text-gray-700 transition-colors duration-300">
+                    <i class="fab fa-tiktok fa-4x"></i>
+                </a>
+            </div>
         </div>
     </section>
 
-    <!-- Footer -->
     <footer class="bg-gray-800 text-white py-8 px-4 sm:px-6 lg:px-8 text-center">
         <p class="rounded-lg">&copy; 2025 Wanderwealth Advisor. All rights reserved.</p>
         <p class="text-sm mt-2 rounded-lg">
